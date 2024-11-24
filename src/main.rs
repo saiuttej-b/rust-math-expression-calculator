@@ -12,7 +12,7 @@ fn main() {
 
         let input = input.trim();
         if input.eq_ignore_ascii_case("exit") {
-            return ();
+            break;
         }
 
         match calculate(input) {
